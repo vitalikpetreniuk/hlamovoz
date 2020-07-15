@@ -26,17 +26,19 @@
 </head>
 
 <body>
-    <button type="button" class="header-toggle"></button>
-    <div class="header-buttons">
-        <a href="#">
-            <img src="img/phone-call.svg" alt="icon">
-        </a>
-        <a href="#">
-            <img src="img/viber.svg" alt="icon">
-        </a>
-        <a href="#">
-            <img src="img/telegram.svg" alt="icon">
-        </a>
+    <div class="header-mob">
+        <button type="button" class="header-toggle"></button>
+        <div class="header-buttons">
+            <a href="#">
+                <img src="img/phone-call.svg" alt="icon">
+            </a>
+            <a href="#">
+                <img src="img/viber.svg" alt="icon">
+            </a>
+            <a href="#">
+                <img src="img/telegram.svg" alt="icon">
+            </a>
+        </div>
     </div>
     <header class="header">
         <button type="button" class="header-close">
@@ -47,15 +49,15 @@
                 <div class="header-top-in">
                     <div class="header-tels">
                         <a href="#">
-                            <img src="img/lifecell.png" alt="lifecell">
+                            <img src="img/lifecell.svg" alt="lifecell">
                             <span>067-137-47-57</span>
                         </a>
                         <a href="#">
-                            <img src="img/kyivstar.png" alt="kyivstar">
+                            <img src="img/kyivstar.svg" alt="kyivstar">
                             <span>063-137-47-57</span>
                         </a>
                         <a href="#">
-                            <img src="img/vodafone.png" alt="vodafone">
+                            <img src="img/vodafone.svg" alt="vodafone">
                             <span>099-137-47-57</span>
                         </a>
                     </div>
@@ -70,7 +72,7 @@
                 <div class="header-bottom-in">
                     <div class="header-logo">
                         <a href="#">
-                            <img src="img/logo.png" alt="logo">
+                            <img src="img/logo-top.svg" alt="logo">
                         </a>
                     </div>
                     <div class="header-menu">
@@ -117,28 +119,29 @@
                     </div>
                     <div class="header-socials">
                         <a href="#">
-                            <svg width="26px" height="26px" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.8839 14.6895C13.5865 14.987 13.1043 14.987 12.8067 14.6895L9.34528 11.228C9.20246 11.0852 9.12212 10.8914 9.12212 10.6895C9.12212 10.4873 9.20246 10.2937 9.34528 10.1507L9.9606 9.53557L8.15331 7.72827L6.67272 9.20886C6.17443 9.70715 6.17462 10.5179 6.67272 11.0162L13.0186 17.3624C13.2584 17.6022 13.5794 17.7342 13.9223 17.7342C14.2653 17.7342 14.5863 17.6021 14.8261 17.3622L16.3067 15.8818L14.4994 14.0743L13.8839 14.6895Z" fill="#E73125"/>
-                                <path d="M24.9074 9.17673C24.9074 6.73466 23.9505 4.43285 22.2124 2.69498C20.4746 0.957108 18.1727 0 15.7309 0H10.2935C10.2935 0 10.2935 0 10.2933 0C7.85165 0 5.54984 0.957108 3.81216 2.69478C2.0743 4.43265 1.11719 6.73466 1.11719 9.17653V13.4505C1.11719 15.3415 1.69403 17.1607 2.78543 18.7113C3.74829 20.0792 5.04321 21.1476 6.55296 21.8252V24.2802C6.55296 25.5495 7.2637 25.9998 7.87228 26C8.3071 26 8.74211 25.7854 9.16542 25.3623L11.9003 22.627H15.7311C18.1729 22.627 20.4748 21.6699 22.2126 19.932C23.9505 18.1942 24.9076 15.8923 24.9076 13.4505L24.9074 9.17673ZM17.9226 16.4204L15.9033 18.4395C15.3756 18.9672 14.6722 19.2574 13.9224 19.2574C13.1726 19.2574 12.4692 18.967 11.9415 18.4395L5.59546 12.0933C4.50346 11.0009 4.50346 9.22374 5.59546 8.13155L7.61481 6.1124C7.75763 5.96938 7.95123 5.88924 8.15337 5.88924C8.3553 5.88924 8.5491 5.96938 8.69193 6.1124L11.5765 8.99701C11.7194 9.13983 11.7995 9.33363 11.7995 9.53557C11.7995 9.7375 11.7194 9.9313 11.5763 10.0741L10.9612 10.6893L13.3456 13.0736L13.9609 12.4583C14.2584 12.1609 14.7406 12.1609 15.038 12.4585L17.9226 15.3431C18.0656 15.4859 18.1458 15.6797 18.1458 15.8816C18.1458 16.0838 18.0656 16.2776 17.9226 16.4204ZM12.4355 7.39482C12.4355 6.97429 12.7764 6.6331 13.1972 6.6331C15.8364 6.6331 17.9837 8.7802 17.9837 11.4192C17.9837 11.84 17.6427 12.181 17.222 12.181C16.8015 12.181 16.4603 11.84 16.4603 11.4192C16.4603 9.62027 14.9965 8.15654 13.1972 8.15654C12.7764 8.15654 12.4355 7.81555 12.4355 7.39482ZM20.4853 12.1814C20.0645 12.1814 19.7236 11.8402 19.7236 11.4196C19.7238 9.67621 19.0448 8.03732 17.8121 6.80449C16.5793 5.57185 14.9404 4.89285 13.197 4.89285C12.7764 4.89285 12.4353 4.55186 12.4353 4.13113C12.4353 3.7106 12.7764 3.36942 13.197 3.36942C15.3472 3.36942 17.3688 4.20691 18.8892 5.72737C20.4099 7.24783 21.2472 9.26936 21.247 11.4196C21.247 11.8402 20.906 12.1814 20.4853 12.1814Z" fill="#E73125"/>
-                            </svg>
+                            <img src="img/viber.svg" alt="vider">
                         </a>
                         <a href="#">
-                            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 24C18.629 24 24 18.629 24 12C24 5.371 18.629 0 12 0C5.371 0 0 5.371 0 12C0 18.629 5.371 24 12 24ZM5.491 11.74L17.061 7.279C17.598 7.085 18.067 7.41 17.893 8.222L17.894 8.221L15.924 17.502C15.778 18.16 15.387 18.32 14.84 18.01L11.84 15.799L10.393 17.193C10.233 17.353 10.098 17.488 9.788 17.488L10.001 14.435L15.561 9.412C15.803 9.199 15.507 9.079 15.188 9.291L8.317 13.617L5.355 12.693C4.712 12.489 4.698 12.05 5.491 11.74Z" fill="#E73125"/>
-                            </svg>
+                            <img src="img/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="#">
+                            <img src="img/youtube.svg" alt="youtube">
+                        </a>
+                        <a href="#">
+                            <img src="img/instagram.svg" alt="instagram">
                         </a>
                     </div>
                     <div class="header-tels">
                         <a href="#">
-                            <img src="img/lifecell.png" alt="lifecell">
+                            <img src="img/lifecell.svg" alt="lifecell">
                             <span>067-137-47-57</span>
                         </a>
                         <a href="#">
-                            <img src="img/kyivstar.png" alt="kyivstar">
+                            <img src="img/kyivstar.svg" alt="kyivstar">
                             <span>063-137-47-57</span>
                         </a>
                         <a href="#">
-                            <img src="img/vodafone.png" alt="vodafone">
+                            <img src="img/vodafone.svg" alt="vodafone">
                             <span>099-137-47-57</span>
                         </a>
                     </div>
@@ -310,69 +313,136 @@
             <div class="container">
                 <h2>География Работы</h2>
                 <div class="geography-list row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в Академгородке</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    Академгородок
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в г. Буча</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    г. Буча
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в с.м.т. Ворзель</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                  с. Ворзель
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора на Оболони</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    Оболонь
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в г. Вишневое</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    г. Вишневое
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в с.м.т. Немешаево</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                  с. Немешаево
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в Святошино</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    Святошино
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в с.м.т. Софиевская Борщаговка</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                  с. Софиевская Борщаговка
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в с.м.т. Гостомель</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                  с. Гостомель
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в г. Вышгород</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    г. Вышгород
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в с.м.т. Петропавловская Борщаговка</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                  с. Петропавловская Борщаговка
+                                </span>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-6">
                         <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="geography-item">
-                            <a href="#">Вывоз мусора из г. Буча</a>
+                            <a href="#">
+                                <span>Вывоз мусора в г. Ирпень</span>
+                                <span>
+                                    <b>Вывоз мусора</b>
+                                    г. Ирпень
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -384,7 +454,7 @@
             <div class="footer-in">
                 <div class="footer-logo">
                     <a href="#">
-                        <img src="img/logo.png" alt="logo">
+                        <img src="img/logo.svg" alt="logo">
                     </a>
                 </div>
                 <div class="footer-menu">
@@ -413,15 +483,15 @@
                 </div>
                 <div class="footer-tels">
                     <a href="#">
-                        <img src="img/lifecell.png" alt="lifecell">
+                        <img src="img/lifecell.svg" alt="lifecell">
                         <span>067-137-47-57</span>
                     </a>
                     <a href="#">
-                        <img src="img/kyivstar.png" alt="kyivstar">
+                        <img src="img/kyivstar.svg" alt="kyivstar">
                         <span>063-137-47-57</span>
                     </a>
                     <a href="#">
-                        <img src="img/vodafone.png" alt="vodafone">
+                        <img src="img/vodafone.svg" alt="vodafone">
                         <span>099-137-47-57</span>
                     </a>
                 </div>
@@ -440,7 +510,16 @@
         </div>
     </footer>
     <button type="button" class="call">
-        <img src="img/call.svg" alt="call">
+        <svg width="26px" height="26px" viewBox="0 0 32 32" fill="#E73125" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.8002 23.26L30.2602 27.9C30.0854 28.4293 29.8018 28.9161 29.4278 29.3294C29.0538 29.7427 28.5975 30.0734 28.0882 30.3C24.5475 31.8628 20.6296 32.3654 16.809 31.747C12.9885 31.1287 9.42919 29.4159 6.5622 26.816C6.3082 26.588 6.07815 26.3599 5.88215 26.1639C4.7242 25.0304 3.71601 23.7534 2.88215 22.364C2.59925 21.8968 2.34025 21.4155 2.10615 20.922C0.708245 18.1564 -0.0134804 15.0987 0.000190657 12C-0.00656322 9.21547 0.574054 6.46086 1.70417 3.91599C1.93141 3.40712 2.26215 2.95121 2.67536 2.57725C3.08858 2.20329 3.57524 1.91948 4.10419 1.74399L8.74616 0.203955C9.7524 -0.1303 10.8502 -0.0513455 11.7983 0.423438C12.7464 0.898221 13.4671 1.72997 13.8022 2.73594L15.8022 8.73594C16.107 9.64862 16.0725 10.6407 15.7051 11.53C15.3378 12.4193 14.6622 13.1464 13.8022 13.578L12.3461 14.306C12.7297 15.5783 13.4272 16.7338 14.3742 17.666C15.2995 18.6026 16.4463 19.2905 17.7082 19.666L18.4362 18.212C18.8678 17.3516 19.5953 16.6756 20.4851 16.3082C21.3748 15.9408 22.3673 15.9067 23.2802 16.212L29.2802 18.212C30.2821 18.5496 31.1096 19.2701 31.5819 20.216C32.0541 21.162 32.1326 22.2563 31.8002 23.26ZM28.0002 22L22.0002 20L20.0002 24C16.8191 23.9952 13.7696 22.7294 11.5202 20.48C9.27081 18.2306 8.00495 15.1811 8.00019 12L12.0002 9.99998L10.0002 3.99998L5.35822 5.54002C4.45691 7.57408 3.99416 9.77517 4.00019 12C3.99084 14.4877 4.5735 16.942 5.70014 19.16C5.8803 19.5436 6.08068 19.9175 6.30024 20.28C6.96222 21.3841 7.76268 22.399 8.6822 23.3C8.8622 23.48 9.04213 23.6599 9.24213 23.8399C11.5338 25.9234 14.3809 27.2971 17.4379 27.7942C20.495 28.2912 23.6305 27.8902 26.4642 26.64L28.0002 22Z" fill="E73125"/>
+            </g>
+            <defs>
+                <clipPath id="clip0">
+                    <rect width="32" height="32" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
     </button>
 
     <div data-id="modal-order" class="modal">
@@ -474,7 +553,7 @@
                             <option value="car3">Услуга 3</option>
                         </select>
                     </div>
-                    <button type="button" class="btn">
+                    <button type="button" class="btn btn-outline">
                         <span>Узнать больше</span>
                     </button>
                 </form>
