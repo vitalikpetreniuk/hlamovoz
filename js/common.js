@@ -63,7 +63,7 @@ $(function() {
             $('.call').removeClass('stuck');
         }
 
-        $('.call.stuck').css('bottom', footerHeight + 32);
+        $('.call.stuck').css('bottom', footerHeight + 60);
     });
 
 	$('.slider-3').owlCarousel({
